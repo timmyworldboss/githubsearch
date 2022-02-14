@@ -19,15 +19,15 @@
              <div class="card-body">
 
         <!-- Title -->
-                 <h4 class="card-title animated fadeInRight" ><p class="text-info"> Gittracer: {{user.login}}</p></h4>
+                 <h4 class="card-title animated fadeInRight" ><p class="text-info"> Gittracker: {{user.login}}</p></h4>
                 <hr>
                  <!-- Text -->
                     <ul class=" card-text list-group list-group-flush">
-                        <li class="list-group-item animated fadeInRight"> <i class="fas fa-user-friends"></i> Followers: {{user.bio}}</li>
+                        <li class="list-group-item animated fadeInleft"> <i class="fas fa-user-friends"></i> No of Followers: {{user.bio}}</li>
 
-                        <li class="list-group-item animated fadeInRight"> <i class="fas fa-folder-open"></i> No of public repos: {{user.public_repos}}</li>
+                        <li class="list-group-item animated fadeInRight"> <i class="fas fa-folder-open"></i> No of public repositories: {{user.public_repos}}</li>
 
-                        <li class="list-group-item animated fadeInRight"> <i class="far fa-clock pr-1"></i> Joined on: {{user.created_at|date}}</li>
+                        <li class="list-group-item animated fadeInRight"> <i class="far fa-clock pr-1"></i> date Joined on: {{user.created_at|date}}</li>
                         </ul>
 
                     </div>
