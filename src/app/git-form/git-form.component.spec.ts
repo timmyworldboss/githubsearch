@@ -20,6 +20,6 @@ describe('GitFormComponent', () => {
   });
 
   it('should create', () => {
-    expet(component).toBeTruthy();
+    expect(component).toBeTruthy();
   });
 });
