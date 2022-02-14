@@ -4,30 +4,30 @@
             <!--Grid row-->
         <div class="row">
 
-            <!--Grid column-->
+            
             <div class="col-md-6 mb-4">
                 <img src='{{user.avatar_url}}' class="img-fluid z-depth-1-half" alt="">
             </div>
-            <!--Grid column-->
+            
 
-            <!--Grid column-->
+            
             <div class="col-md-6 mb-4">
-                <!-- card start -->
-                <!-- Card -->
+                
+                
             <div class="card">
-        <!-- Card content -->
+       
              <div class="card-body">
 
-        <!-- Title -->
+        
                  <h4 class="card-title animated fadeInRight" ><p class="text-info"> Gittracker: {{user.login}}</p></h4>
                 <hr>
-                 <!-- Text -->
+               
                     <ul class=" card-text list-group list-group-flush">
                         <li class="list-group-item animated fadeInleft"> <i class="fas fa-user-friends"></i> No of Followers: {{user.bio}}</li>
 
                         <li class="list-group-item animated fadeInRight"> <i class="fas fa-folder-open"></i> No of public repositories: {{user.public_repos}}</li>
 
-                        <li class="list-grou-item animated fadeInRight"> <i class="far fa-clock pr-1"></i> date Joined on: {{user.created_at|date}}</li>
+                        <li class="list-group-item animated fadeInRight"> <i class="far fa-clock pr-1"></i> date Joined on: {{user.created_at|date}}</li>
                         </ul>
 
                     </div>
