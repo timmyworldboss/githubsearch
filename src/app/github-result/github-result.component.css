@@ -2,7 +2,7 @@ html,
 body,
 header,
 .carousel {
-  height: 40%;
+  height: 50%;
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
