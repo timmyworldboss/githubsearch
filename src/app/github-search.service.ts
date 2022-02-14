@@ -22,7 +22,7 @@ export class GithubServiceService {
     interface ApiResponse{
       bio:string,
       public_repos: number, 
-      login: , 
+      login:string , 
       avatar_url: string,
       created_at: Date,
     
